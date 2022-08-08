@@ -1,7 +1,7 @@
  version: '3.7'
  services:
-  node-app:
+   Java:
     build: .
-    image: node-app:1.0
+    image: openjdk
     ports:
       - '9999:9999'
